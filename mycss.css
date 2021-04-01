@@ -16,46 +16,22 @@
     font-weight: bold;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'SF-Pro' !important;
     color: gray !important;
     background-color: #E3E3E3 !important;
 }
 
-.fade-effect{
-    margin: 20px;
-    display: block;
-    border: none;
-    color: white;
-    height: 20px;
-    background: black;
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#fff), to(#e3e3e3));
-}
-
-.fade-effect2{
-    margin: 30px;
-    display: block;
-    border: none;
-    color: white;
-    height: 2px;
-    background: black;
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#fff), to(#e3e3e3));
-}
-
-#menu{
-    align-items: center;
-    justify-content: center;
-    display: inline-flex;
-    margin-top: 20px;
-    width: 500px;
-    min-height: 100px;
-}
-
 #header{
+    display: grid;
     margin-top: 3%;
     align-content: center !important;
     opacity: 0;
-    min-height: 100px;
+    min-height: 5%;
     text-align: -webkit-center;
 }
 
@@ -72,17 +48,46 @@ body{
   font-size: 20px;
 }
 
+.fade-effect{
+    margin: 1rem;
+    display: block;
+    border: none;
+    color: white;
+    height: 1.5rem;
+    background: black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#fff), to(#e3e3e3));
+}
+
+.fade-effect2{
+    margin: 3rem;
+    display: block;
+    border: none;
+    color: white;
+    height: 0.5rem;
+    background: black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#fff), to(#e3e3e3));
+}
+
 #promotionalVideo{
     align-content: center;
     display: grid;
     justify-content: center;
-    width: 700px;
-    height: 400px;
+    width: 70%;
     border: 0px solid white;
     margin-top: 40px;
     border-radius: 10px;
     overflow: hidden;
     position: relative;
+}
+
+#menu{
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    display: inline-flex;
+    margin-top: 20px;
+    width: 30%;
+    min-height: 100px;
 }
 
 #photos{
@@ -159,4 +164,9 @@ a{color:#fff; text-decoration:none;}
 
 #contactInfo h4{
   font-size: 20px;
+}
+
+
+@media (max-width: 500px){
+    
 }

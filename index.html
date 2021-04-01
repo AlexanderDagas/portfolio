@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="mycss.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="js/pageFadeIn.js"></script>
-    <script src="js/imageTransition.js"></script>
     <script type="text/javascript">
       (function(document,navigator,standalone) {
         // prevents links from apps from oppening in mobile safari
@@ -56,9 +55,7 @@
             Your browser does not support HTML video.
           </video>
           
-          <script>
-            document.getElementById('vid').play();
-        </script>
+         
        </div>
         
         <div id="menu">
@@ -78,23 +75,23 @@
         <div id="gallery">
             <div class="row" style="justify-content: center;">
              
-              <div class="col-lg-2 col-md-4 mb-6 mb-lg-0">
+              <div class="col-lg-2 col-md-4 col-6 mb-6 mb-lg-0">
                 <img src="Photography/Nature Photography/2020-08-30-125952984-01.jpeg" class="w-100 shadow-1-strong rounded mb-2" alt="" />
               </div>
 
-              <div class="col-lg-2 col-md-6 mb-6 mb-lg-0">
+              <div class="col-lg-2 col-md-4 col-6 mb-6 mb-lg-0">
                 <img src="Photography/Model Photography/IMG_20200111_134814.jpg" class="w-100 shadow-1-strong rounded mb-6" alt="" />
               </div>
               
-              <div class="col-lg-2 col-md-6 mb-6 mb-lg-0">
+              <div class="col-lg-2 col-md-4 col-6 mb-6 mb-lg-0">
                 <img src="Photography/Nature Photography/6 IMG_20200102_120338.jpg" class="w-100 shadow-1-strong rounded mb-4" alt=""/>
               </div>
 
-              <div class="col-lg-2 col-md-12 mb-4 mb-lg-0">
+              <div class="col-lg-2 col-md-4 col-6 mb-6 mb-lg-0">
                 <img src="Photography/Model Photography/Snowy.png" class="w-100 shadow-1-strong rounded mb-4" alt="" />
               </div>
 
-              <div class="col-lg-2 col-md-6 mb-6 mb-lg-0">
+              <div class="col-lg-2 col-md-4 col-6 mb-6 mb-lg-0">
                 <img src="Photography/Nature Photography/IMG_20200814_200715.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" />
               </div>
 
@@ -102,7 +99,7 @@
 
             <div class="row">
 
-              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+              <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                   <img src="Photography/Model Photography/PXL_20210218_114736412.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="" style="height: 93%;"/>
               </div>
               
@@ -168,7 +165,7 @@
               <div id="beats" class="col-12">
                 <h2>Beat Samples</h2>
 
-              <div class="panel panel-default audio-panel">
+              <div class="panel panel-default audio-panel" style="text-align: center;">
                 Beat Sample 1<br></br>
                 <audio id="audio" preload="auto" tabindex="0" controls>
                     <source src="Music/Beats/Beat 1.m4a">
@@ -216,7 +213,7 @@
           <div id="musicplayer">
             <div id="soundtracks" class="col-12">
               <h2>Soundtrack Samples</h2>
-              <div class="panel panel-default audio-panel">
+              <div class="panel panel-default audio-panel" style="text-align: center;">
                 Soundtrack Sample 1<br></br>
                 <audio id="audio" preload="auto" tabindex="0" controls>
                     <source src="Music/Soundtracks/Soundtrack 1.m4a">
@@ -240,7 +237,7 @@
         <div id="musicplayer">
           <div id="gameSoundtracks" class="col-12">
             <h2>Game Soundtrack Samples</h2>
-              <div class="panel panel-default audio-panel">
+              <div class="panel panel-default audio-panel" style="text-align: center;">
                 Game Soundtrack Sample 1 <br></br>
                 <audio id="audio" preload="auto" tabindex="0" controls>
                     <source src="Music/Game Soundtracks/Game Soundtrack 1.mp3">
@@ -275,7 +272,7 @@
 
         <div id="viewer">
           <div class="row">
-            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <div class="col-lg-4 col-md-4 mb-4 mb-lg-0">
               <img
                 src="models/renders/Render 1.jpeg"
                 class="w-100 shadow-1-strong rounded mb-2"
@@ -283,7 +280,7 @@
               />
             <div class="mb-4"><B>Coffee Table</B></div>
             </div>
-            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <div class="col-lg-4 col-md-4 mb-4 mb-lg-0">
           
               <img
                 src="models/renders/Render 2.jpeg"
@@ -293,7 +290,7 @@
               <div class="mb-4"><B>Coffee Table</B></div>
             </div>
           
-            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <div class="col-lg-4 col-md-4 mb-4 mb-lg-0">
               <img
               src="models/renders/Render 3.jpeg"
                 class="w-100 shadow-1-strong rounded mb-2"
@@ -302,7 +299,7 @@
               <div class="mb-4"><B>Console Table 1</B></div>
             </div>
 
-            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <div class="col-lg-4 col-md-4 mb-4 mb-lg-0">
               <img
               src="models/renders/Render 4.jpeg"
               class="w-100 shadow-1-strong rounded mb-2"
@@ -311,7 +308,7 @@
               <div class="mb-4"><B>Console Table 1</B></div>
             </div>
           
-            <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="col-lg-4 col-md-4 mb-4 mb-lg-0">
               <img
               src="models/renders/Render 5.jpeg"
                 class="w-100 shadow-1-strong rounded mb-2"
@@ -320,7 +317,7 @@
               <div class="mb-4"><B>Console Table 1</B></div>
             </div>
 
-            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <div class="col-lg-4 col-md-4 mb-4 mb-lg-0">
               <img
               src="models/renders/Render 6.jpeg"
                 class="w-100 shadow-1-strong rounded mb-2"
@@ -329,7 +326,7 @@
               <div class="mb-4"><B>Seat</B></div>
             </div>
 
-            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <div class="col-lg-4 col-md-4 mb-4 mb-lg-0">
                 <img
                 src="models/renders/Render 7.jpeg"
                   class="w-100 shadow-1-strong rounded mb-2"
@@ -338,7 +335,7 @@
                 <div class="mb-4"><B>Bed</B></div>
             </div>
             
-            <div class="col-lg-4 col-md-6 mb-6 mb-lg-0">
+            <div class="col-lg-4 col-md-4 mb-6 mb-lg-0">
                 <img
                 src="models/renders/Render 8.jpeg"
                   class="w-100 shadow-1-strong rounded mb-2"
@@ -347,7 +344,7 @@
                 <div class="mb-4"><B>Bed</B></div>
             </div>
 
-              <div class="col-lg-4 col-md-6 mb-6 mb-lg-0">
+              <div class="col-lg-4 col-md-4 mb-6 mb-lg-0">
                 <img
                 src="models/renders/Render 9.jpeg"
                   class="w-100 shadow-1-strong rounded mb-2"
@@ -356,7 +353,7 @@
                 <div class="mb-4"><B>Side Table 1</B></div>
               </div>
 
-              <div class="col-lg-4 col-md-6 mb-6 mb-lg-0">
+              <div class="col-lg-4 col-md-4 mb-6 mb-lg-0">
                 <img
                 src="models/renders/Render 10.jpeg"
                   class="w-100 shadow-1-strong rounded mb-2"
@@ -365,7 +362,7 @@
                 <div class="mb-4"><B>Console Table 2</B></div>
               </div>
 
-              <div class="col-lg-4 col-md-6 mb-6 mb-lg-0">
+              <div class="col-lg-4 col-md-4 mb-6 mb-lg-0">
                 <img
                 src="models/renders/Render 11.jpeg"
                   class="w-100 shadow-1-strong rounded mb-2"
@@ -374,7 +371,7 @@
                 <div class="mb-4"><B>Side Table 2</B></div>
               </div>
 
-              <div class="col-lg-4 col-md-6 mb-6 mb-lg-0">
+              <div class="col-lg-4 col-md-4 mb-6 mb-lg-0">
                 <img
                 src="models/renders/Render 12.jpeg"
                   class="w-100 shadow-1-strong rounded mb-2"

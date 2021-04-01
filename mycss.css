@@ -1,0 +1,162 @@
+@font-face{
+    font-family: SF-Pro;
+    src: url(fonts/SFProDisplay-Ultralight.ttf);
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: minimal;
+    src: url(fonts/minimal.ttf);
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: SF-Pro;
+    src: url(fonts/SFProDisplay-Normal.ttf);
+    font-weight: bold;
+}
+
+body{
+    font-family: 'SF-Pro' !important;
+    color: gray !important;
+    background-color: #E3E3E3 !important;
+}
+
+.fade-effect{
+    margin: 20px;
+    display: block;
+    border: none;
+    color: white;
+    height: 20px;
+    background: black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#fff), to(#e3e3e3));
+}
+
+.fade-effect2{
+    margin: 30px;
+    display: block;
+    border: none;
+    color: white;
+    height: 2px;
+    background: black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#fff), to(#e3e3e3));
+}
+
+#menu{
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin-top: 20px;
+    width: 500px;
+    min-height: 100px;
+}
+
+#header{
+    margin-top: 3%;
+    align-content: center !important;
+    opacity: 0;
+    min-height: 100px;
+    text-align: -webkit-center;
+}
+
+#header a{
+    display: inline;
+    color: gray;
+}
+
+#header h1{
+    font-family: minimal !important;
+    font-size: 70px;
+}
+#header h3{
+  font-size: 20px;
+}
+
+#promotionalVideo{
+    align-content: center;
+    display: grid;
+    justify-content: center;
+    width: 700px;
+    height: 400px;
+    border: 0px solid white;
+    margin-top: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+#photos{
+    min-height: 100px;
+}
+
+#gallery{
+    align-content: center;
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#music{
+    height: 2900px;
+}
+
+#musicplayer{
+    align-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#beats{
+  height: 1400px;
+}
+
+#soundtracks{
+  height: 600px;
+}
+
+#gameSoundtracks{
+  height: 1000px;
+}
+
+
+.panel{ margin: 20px; padding:0px; height:34px;}
+.audio-panel{border:none !important;}
+#playlist,audio{width:80%;}
+.active a{color:#fff;text-decoration:none;}
+ul{list-style:none; margin:0px; padding:20px;}
+li{margin:0px; padding:0px;}
+li, a{transition:all 0.5s;}
+.list-group-item.active a{ text-decoration:none; color:#fff;}
+a{display:block; position:relative; width:100%;}
+li a{display:block; text-decoration:none;}
+li:hover{background-color:#333;}
+li a:hover{text-decoration:none; color: #fff;}
+a{color:#fff; text-decoration:none;}
+.last{display:none;}
+
+#threeDimensionalModels{
+  min-height: 100px;
+}
+
+#viewer{
+    align-content: center;
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#contactInfo{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 500;
+    text-align: center;
+    min-height: 400px;
+}
+
+#contactInfo h4{
+  font-size: 20px;
+}

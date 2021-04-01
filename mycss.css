@@ -21,6 +21,7 @@ html{
 }
 
 body{
+    width: fit-content;
     font-family: 'SF-Pro' !important;
     color: gray !important;
     background-color: #E3E3E3 !important;

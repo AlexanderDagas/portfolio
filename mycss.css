@@ -168,11 +168,16 @@ a{color:#fff; text-decoration:none;}
   font-size: 20px;
 }
 
-
-@media (max-width: 1000px){
+@media (max-width: 500px){
+    #header{
+        margin-top: 3%;
+        align-content: center !important;
+        opacity: 0;
+        min-height: 5%;
+        text-align: -webkit-center;
+    }
+    #header h1{
+        font-size: 4rem;
+    }
     
-}
-
-@media (max-width: 400px){
-        
 }

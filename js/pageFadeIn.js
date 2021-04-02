@@ -7,7 +7,7 @@ function fadeIn() {
 } 
 
 function show() { 
-    var body = document.getElementById("header"); 
+    var body = document.getElementById("fade"); 
     opacity = Number(window.getComputedStyle(body) 
                      .getPropertyValue("opacity")); 
     if (opacity < 1) { 

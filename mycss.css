@@ -22,7 +22,6 @@ html{
 
 body{
     display: inline;
-    width: fit-content;
     font-family: 'SF-Pro' !important;
     color: gray !important;
     background-color: #E3E3E3 !important;
@@ -172,15 +171,21 @@ a{color:#fff; text-decoration:none;}
 }
 
 @media (max-width: 500px){
+    html{
+        width: fit-content;
+    }
     #header{
         margin-top: 3%;
         align-content: center !important;
-        opacity: 0;
         min-height: 5%;
         text-align: -webkit-center;
     }
     #header h1{
         font-size: 4rem;
+    }
+
+    body{
+        margin: auto;
     }
     
 }

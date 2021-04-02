@@ -32,6 +32,7 @@ body{
 }
 
 #header{
+    height: 90vh;
     display: grid;
     margin-top: 3%;
     align-content: center !important;
@@ -187,5 +188,4 @@ a{color:#fff; text-decoration:none;}
     body{
         margin: auto;
     }
-    
 }

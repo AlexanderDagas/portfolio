@@ -47,9 +47,10 @@ body{
 
 #header h1{
     font-family: minimal !important;
-    font-size: 70px;
+    font-size: 7rem;
 }
 #header h3{
+    opacity: 50%;
   font-size: 20px;
 }
 

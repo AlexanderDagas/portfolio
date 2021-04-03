@@ -95,6 +95,10 @@ body{
     min-height: 100px;
 }
 
+#triangle{
+    height: 3rem;
+}
+
 #photos{
     min-height: 100px;
 }
@@ -173,7 +177,10 @@ a{color:#fff; text-decoration:none;}
 
 @media (max-width: 500px){
     html{
-        width: fit-content;
+        width: auto;
+    }
+    body{
+        margin: auto;
     }
     #header{
         margin-top: 3%;
@@ -181,11 +188,18 @@ a{color:#fff; text-decoration:none;}
         min-height: 5%;
         text-align: -webkit-center;
     }
+
+    #header.container{
+        transform: translateX(-3.5%);
+    }
+
     #header h1{
         font-size: 4rem;
     }
 
-    body{
-        margin: auto;
+    #triangle{
+        display: none;
     }
+
+    
 }

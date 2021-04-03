@@ -84,7 +84,7 @@ body{
     display: block;
     border: none;
     color: white;
-    height: 0.5rem;
+    height: 0.1rem;
     background: black;
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#fff), to(#e3e3e3));
 }
@@ -179,10 +179,11 @@ a{color:#fff; text-decoration:none;}
 }
 
 #contactInfo{
+    
     align-content: center;
     align-items: center;
     justify-content: center;
-    display: flex;
+    display: block;
     font-weight: 500;
     text-align: center;
     min-height: 400px;
@@ -190,6 +191,15 @@ a{color:#fff; text-decoration:none;}
 
 #contactInfo h4{
   font-size: 20px;
+}
+
+#contactInfo p{
+    font-size: 0.7rem;
+}
+
+#info{
+    align-items: center;
+    display: inline-flex;
 }
 
 @media (max-width: 500px){
@@ -206,9 +216,6 @@ a{color:#fff; text-decoration:none;}
         text-align: -webkit-center;
     }
 
-    .row img{
-        height: 85%;
-    }
 
     #audio {
         margin-top: -8%;

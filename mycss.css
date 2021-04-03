@@ -32,9 +32,8 @@ body{
 }
 
 #header{
-    height: 93vh;
+    height: 100vh;
     display: grid;
-    margin-top: 3%;
     align-content: center !important;
     min-height: 5%;
     text-align: -webkit-center;

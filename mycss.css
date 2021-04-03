@@ -5,15 +5,15 @@
 }
 
 @font-face{
-    font-family: minimal;
-    src: url(fonts/minimal.ttf);
-    font-weight: normal;
-}
-
-@font-face{
     font-family: SF-Pro;
     src: url(fonts/SFProDisplay-Normal.ttf);
     font-weight: bold;
+}
+
+@font-face{
+    font-family: minimal;
+    src: url(fonts/minimal.ttf);
+    font-weight: normal;
 }
 
 html{
@@ -46,12 +46,27 @@ body{
 }
 
 #header h1{
+    background: url(fonts/silver.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip:text;
+    background-clip:text; 
+    font-family:Catamaran,sans-serif;
+    font-size:10em;
+    padding:0;
+    margin:0;
+    text-align:center;
+    -webkit-text-stroke: 0px white;
     font-family: minimal !important;
     font-size: 7rem;
 }
 #header h3{
+    font-family: 'SF-Pro' !important;
+    font-weight: normal;
     opacity: 50%;
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .fade-effect{
@@ -84,6 +99,7 @@ body{
     border-radius: 10px;
     overflow: hidden;
     position: relative;
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
 }
 
 #menu{

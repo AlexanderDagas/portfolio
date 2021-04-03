@@ -189,6 +189,26 @@ a{color:#fff; text-decoration:none;}
         text-align: -webkit-center;
     }
 
+    #audio {
+        margin-top: -8%;
+    }
+
+    #music br{
+        margin-bottom: 0px;
+    }
+
+    #beats div{
+        display: inline;
+    }
+
+    #soundtracks div{
+        display: inline;
+    }
+
+    #gameSoundtracks div{
+        display: inline;
+    }
+
     #header.container{
         transform: translateX(-3.5%);
     }
@@ -201,5 +221,7 @@ a{color:#fff; text-decoration:none;}
         display: none;
     }
 
-    
+    #contactInfo{
+        display: block;
+    }
 }

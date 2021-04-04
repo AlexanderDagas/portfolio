@@ -5,17 +5,17 @@
 <style type="text/css">
 	.st0{fill:#FFFFFF;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
 	.st1{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
-	.st3{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
 </style>
-<path class="st0" d="M181.4-13.5"/>
+<path class="st0" d="M182.7,0"/>
 <path class="st1" d="M308.9-60.9"/>
-<path class="st1" d="M392.8,26.8l-368.7,270c-6.5,4.7-15.6,3.3-20.3-3.1C2,291.2,1,288.2,1,285.1V49.8c0-12.7,10.3-23,23-23H392.8"
-	/>
-<line class="st2" x1="43.3" y1="73.3" x2="90.5" y2="73.3"/>
-<path class="st3" d="M299.7,1h38.5c9.4,0,17.1,7.7,17.1,17.1v8.7h-55.6V1z"/>
-<ellipse class="st3" cx="205.9" cy="162.3" rx="94.3" ry="97"/>
-<path class="st2" d="M236.7,77.2"/>
-<path class="st2" d="M1,26.8"/>
-<path class="st2" d="M192.3,267.3"/>
+<path class="st1" d="M353,36.4L58.8,280.1c-5.2,4.2-12.4,3-16.2-2.8c-1.4-2.3-2.2-5-2.2-7.8V57.1c0-11.5,8.2-20.8,18.4-20.8H353"/>
+<path class="st2" d="M278.7,13.1h30.7c7.5,0,13.6,4.4,13.6,9.9v5h-44.4V13.1z"/>
+<ellipse class="st1" cx="208.4" cy="164.8" rx="75.2" ry="76.4"/>
+<path class="st3" d="M228.5,81.9"/>
+<path class="st3" d="M40.4,36.4"/>
+<path class="st3" d="M193,253.4"/>
+<path class="st1" d="M143.1,210.3"/>
+<path class="st1" d="M112.9,81.9H80.3c-4.6,0-8.3-3.7-8.3-8.3V67h48.9v6.9C120.9,78.3,117.3,81.9,112.9,81.9z"/>
 </svg>

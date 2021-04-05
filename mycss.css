@@ -31,9 +31,74 @@ body{
     opacity: 0;
 }
 
-#header{
+#headerDesktop{
+    place-content: center;
+    max-width: fit-content;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    align-items: center;
+    display: flex;
     height: 100vh;
-    display: grid;
+    align-content: center !important;
+    min-height: 5%;
+    text-align: -webkit-center;
+}
+
+#headerDesktop #headerTop{
+    margin: auto;
+}
+
+#headerDesktop a{
+    display: inline;
+    color: gray;
+}
+
+#headerDesktopRightcolumn{
+    margin: auto;
+    width: 40%;
+}
+
+#headerDesktop #promotionalVideo{
+    width: auto;
+    margin-bottom: 2vh;
+}
+
+#headerDesktop h1{
+    background: url(fonts/silver.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip:text;
+    background-clip:text; 
+    font-family:Catamaran,sans-serif;
+    font-size:10em;
+    padding:0;
+    margin:0;
+    text-align:center;
+    -webkit-text-stroke: 0px white;
+    font-family: minimal !important;
+    font-size: 5rem;
+}
+
+#headerDesktop h3{
+    font-family: 'SF-Pro' !important;
+    font-weight: normal;
+    opacity: 50%;
+    font-size: 20px;
+}
+
+#headerDesktop #menu{
+    margin-bottom: 0;
+}
+
+#headerDesktop #musicIcon{
+    margin-left: 0;
+}
+
+#header{
+    display: none;
+    height: 100vh;
     align-content: center !important;
     min-height: 5%;
     text-align: -webkit-center;
@@ -59,7 +124,7 @@ body{
     text-align:center;
     -webkit-text-stroke: 0px white;
     font-family: minimal !important;
-    font-size: 7rem;
+    font-size: 5rem;
 }
 #header h3{
     font-family: 'SF-Pro' !important;
@@ -88,6 +153,10 @@ body{
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#fff), to(#e3e3e3));
 }
 
+#headerTop{
+    margin-top: 3vh;
+}
+
 #promotionalVideo{
     align-content: center;
     display: grid;
@@ -112,10 +181,16 @@ body{
     display: inline-flex;
     width: 30%;
     min-height: 100px;
+    margin-bottom: 3vh;
+}
+
+
+#musicIcon{
+    margin-left: -1.5vw;
 }
 
 #menu a img{
-    height: 7rem;
+    height: 5rem;
 }
 
 #triangle{
@@ -208,7 +283,20 @@ a{color:#fff; text-decoration:none;}
     display: inline-flex;
 }
 
+@media (max-width: 1100px){
+    #headerDesktop h1{
+        font-size: 5vw;
+    }
+}
+
 @media (max-width: 767px){
+    #headerDesktop{
+        display: none !important;
+    }
+
+    #header{
+        display: grid !important;
+    }
 
     #header h1{
         font-size: 10vw;

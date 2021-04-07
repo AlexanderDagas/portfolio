@@ -45,6 +45,7 @@ body{
 }
 
 #headerDesktop #headerTop{
+    flex: 1;
     margin: auto;
 }
 
@@ -54,6 +55,7 @@ body{
 }
 
 #headerDesktopRightcolumn{
+    flex: 1 !important;
     margin: auto;
     width: 40%;
 }

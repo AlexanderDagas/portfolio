@@ -32,6 +32,7 @@ body{
 }
 
 #headerDesktop{
+    font-weight: bold;
     place-content: center;
     max-width: fit-content;
     margin-left: 5vw;
@@ -98,6 +99,7 @@ body{
 }
 
 #header{
+    font-weight: bold;
     display: none;
     height: 100vh;
     align-content: center !important;
@@ -211,6 +213,7 @@ body{
 }
 
 #music{
+    font-weight: bold;
     height: 2900px;
 }
 
@@ -261,7 +264,6 @@ a{color:#fff; text-decoration:none;}
 }
 
 #contactInfo{
-    
     align-content: center;
     align-items: center;
     justify-content: center;
@@ -272,7 +274,8 @@ a{color:#fff; text-decoration:none;}
 }
 
 #contactInfo h4{
-  font-size: 20px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 #contactInfo p{

@@ -263,6 +263,10 @@ a{color:#fff; text-decoration:none;}
     width: 100%;
 }
 
+model-viewer#reveal {
+    --poster-color: transparent;
+  }
+
 #contactInfo{
     align-content: center;
     align-items: center;
